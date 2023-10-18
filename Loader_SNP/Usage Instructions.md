@@ -1,8 +1,8 @@
 # Usage Instructions
 
-The source file must be named "Modify Data Error." If you want to use "Modify Data Error-type 2," you should rename it to "Modify Data Error."
+Both the source and destination files need to be downloaded and located in the same folder.
 
-Both the source and destination files should be located in the same folder.
+The source file must be named "Modificar Error de datos". If you want to try with "Modificar Error de datos - tipo 2", you should rename it to "Modificar Error de datos".
 
 Open both the source and destination files.
 
