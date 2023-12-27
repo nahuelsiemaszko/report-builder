@@ -11,7 +11,7 @@ This macro performs the following actions as per the given specifications:
 - Changes the rows in the 4 columns that contain "Y" and "N" to "1" and "0".
 - Replaces empty fields with "~NULL~".
 - Fills the rows in the "refdate" column with today's date.
-- Generates a new spreadsheet in the same destination file with the name "SNP_dd-MM-yy" and the loaded information.
+- Generates a new spreadsheet in the same destination file with the name "SNP_dd-mm-yy" and the loaded information.
 
 If you would like to try it out, please refer to the 'Usage_Instructions.md' file for detailed usage instructions.
 
