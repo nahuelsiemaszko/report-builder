@@ -1,8 +1,8 @@
 # Usage Instructions
 
-Download the source file (Modify Data Error.xlsx" or "Modify Data Error-Type 2.xlsx") and the destination file ("SNP Loader.xlsm") and locate both the source file and destination file in the same folder.
+Download the source file (Modify Data Error.xlsx" or "Modify Data Error-type 2.xlsx") and the destination file ("SNP Loader.xlsm") and locate both the source file and destination file in the same folder.
 
-The source file must be named "Modify Data Error.xlsx". If you want to try with "Modify Data Error-Type 2.xlsx", you should rename it to "Modify Data Error.xlsx".
+The source file must be named "Modify Data Error.xlsx". If you want to try with "Modify Data Error-type 2.xlsx", you should rename it to "Modify Data Error.xlsx".
 
 Open both the source and destination files.
 
