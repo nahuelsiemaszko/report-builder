@@ -1,6 +1,6 @@
 # SNP_Loader
 
-This macro was created to automate a process that was performed daily and repetitively, reducing the time to complete the task from 30 minutes to 2 minutes.
+Macro created to automate a process that was performed daily and repetitively, reducing the time to complete the task from 30 minutes to 2 minutes.
 
 This process involved loading and modifying specific information from an xlsx file into an xlsm file, which then makes changes to an internal company database.
 
