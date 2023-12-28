@@ -6,7 +6,7 @@ The source file must be named "Modify_Data_Error.xlsx". If you want to try with 
 
 Open both the source and destination files.
 
-In the "SNP_Loader.xlsm", on the horizontal toolbar, click on "Developer" (You should enable this tool if you don't have it enabled), then click on "Macros" and select the "CopyAndModifyData" macro.
+In the "SNP_Loader.xlsm", on the horizontal toolbar, click on "Developer" (You should enable this tool if you don't have it enabled), then click on "Macros" and select the "LoadData" macro.
 
 The information from the source file will be copied and modified automatically according to the provided specifications in the destination file.
 
