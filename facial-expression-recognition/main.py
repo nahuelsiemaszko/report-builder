@@ -4,8 +4,8 @@ from keras.layers import Conv2D, MaxPooling2D
 from keras.preprocessing.image import ImageDataGenerator
 import os
 
-train_data_dir = 'fer-2013-data/train/'
-validation_data_dir = 'fer-2013-data/test/'
+train_data_dir = 'archive/train/'
+validation_data_dir = 'archive/test/'
 
 train_datagen = ImageDataGenerator(
     rescale=1. / 255,
