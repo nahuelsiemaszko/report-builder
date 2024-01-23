@@ -11,4 +11,14 @@ This macro performs the following actions as per the given specifications:
 - Updates the information regarding the quantity of each type of case in the "MonthlyNewCases" sheet.
 - Updates the information on the "SLA" sheet concerning "Incident Response Within Deadline by Priority" and "Incident Resolution Within Deadline by Priority," categorizing them into critical, high, medium, and low priorities.
 
-If you would like to try it out, please refer to the 'usage-instructions.md' file.
+# usage-instructions
+
+Download the source file ("report-data-extract.xlsx") and the destination file ("report-builder.xlsm") and locate both the source file and destination file in the same folder.
+
+Open both the source and destination files.
+
+In the "report-builder.xlsm" file, on the horizontal toolbar, click on "Developer" (You should enable this tool if you don't have it enabled), then click on "Macros" and select the "LoadData" macro.
+
+The information from the source file will be copied and modified automatically according to the provided specifications in the destination file.
+
+Notes: The information provided in the example files is for illustrative purposes and has been modified for company confidentiality.
