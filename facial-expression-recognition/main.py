@@ -58,8 +58,8 @@ model.add(Dense(7, activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 print(model.summary())
 
-train_path = "fer-2013-data/train/"
-test_path = "fer-2013-data/test"
+train_path = "archive/train/"
+test_path = "archive/test/"
 
 num_train_imgs = 0
 for root, dirs, files in os.walk(train_path):
