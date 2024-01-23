@@ -1,4 +1,6 @@
-# data-loader
+# Data Loader
+
+## Overview
 
 Macro created in VBA to automate a process that was performed daily and repetitively, reducing the time to complete the task from 30 minutes to 2 minutes.
 
@@ -13,7 +15,7 @@ This macro performs the following actions as per the given specifications:
 - Fills the rows in the "refdate" column with today's date.
 - Generates a new spreadsheet in the same destination file with the name "Record" "dd-mm-yy" and the loaded information.
 
-# usage-instructions
+## Usage
 
 Download the source file (modify-data-error.xlsx" or "modify-data-error-type-2.xlsx") and the destination file ("data-loader.xlsm") and locate both the source file and destination file in the same folder.
 
