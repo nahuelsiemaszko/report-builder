@@ -21,4 +21,5 @@ In the "report-builder.xlsm" file, on the horizontal toolbar, click on "Develope
 
 The information from the source file will be copied and modified automatically according to the provided specifications in the destination file.
 
-Notes: The information provided in the example files is for illustrative purposes and has been modified for company confidentiality.
+Notes: The information provided in the example files is for illustrative purposes and has been modified to mantain company confidentiality.
+The "update-data.bas" file is provided for code review purposes only, downloading is not necessary.
