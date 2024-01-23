@@ -1,3 +1,5 @@
-# facial-expression-recognition
+# Facial Expression Recognition
 
+## Overview
 
+Project created in Python.
