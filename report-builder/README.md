@@ -1,4 +1,6 @@
-# report-builder
+# Report Builder
+
+## Overview
 
 Macro created in VBA to automate a process that was performed every month, reducing the time to complete the task from 40 minutes to 2 minutes.
 
@@ -11,7 +13,7 @@ This macro performs the following actions as per the given specifications:
 - Updates the information regarding the quantity of each type of case in the "MonthlyNewCases" sheet.
 - Updates the information on the "SLA" sheet concerning "Incident Response Within Deadline by Priority" and "Incident Resolution Within Deadline by Priority," categorizing them into critical, high, medium, and low priorities.
 
-# usage-instructions
+## Usage
 
 Download the source file ("report-data-extract.xlsx") and the destination file ("report-builder.xlsm") and locate both the source file and destination file in the same folder.
 
