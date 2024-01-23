@@ -13,4 +13,4 @@ This macro performs the following actions as per the given specifications:
 - Fills the rows in the "refdate" column with today's date.
 - Generates a new spreadsheet in the same destination file with the name "Record" "dd-mm-yy" and the loaded information.
 
-If you would like to try it out, please refer to the 'usage-instructions.md' file for detailed usage instructions.
+If you would like to try it out, please refer to the 'usage-instructions.md' file.
