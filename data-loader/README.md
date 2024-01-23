@@ -25,4 +25,5 @@ In the "data-loader.xlsm" file, on the horizontal toolbar, click on "Developer" 
 
 The information from the source file will be copied and modified automatically according to the provided specifications in the destination file.
 
-Notes: The information provided in the example files is for illustrative purposes and has been modified for company confidentiality.
+Notes: The information provided in the example files is for illustrative purposes and has been modified to mantain company confidentiality.
+The "load-data.bas" file is provided for code review purposes, downloading is not necessary.
