@@ -11,4 +11,4 @@ This macro performs the following actions as per the given specifications:
 - Updates the information regarding the quantity of each type of case in the "MonthlyNewCases" sheet.
 - Updates the information on the "SLA" sheet concerning "Incident Response Within Deadline by Priority" and "Incident Resolution Within Deadline by Priority," categorizing them into critical, high, medium, and low priorities.
 
-If you would like to try it out, please refer to the 'usage-instructions.md' file for detailed usage instructions.
+If you would like to try it out, please refer to the 'usage-instructions.md' file.
