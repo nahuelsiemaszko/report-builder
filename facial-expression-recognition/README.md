@@ -19,7 +19,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
         ```
 
 2. **Download Kaggle Dataset:**
-    - Download the dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
+    - Download the "FER-2013" dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
 3. **Install Required Libraries:**
     - Install the necessary libraries:
