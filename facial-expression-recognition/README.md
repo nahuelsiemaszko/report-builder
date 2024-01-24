@@ -8,9 +8,9 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 ## Usage
 
-1. **Create a Folder and Set Up a Virtual Environment:**
-    - Create a new folder for the project and navigate into it.
-    - Open a terminal or command prompt window.
+Create a new folder for the project and navigate into it.
+
+Open a terminal or command prompt window and run the following command to set up a virtual environment.
 
     ```bash
     python -m venv venv
@@ -19,18 +19,15 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     .\venv\Scripts\activate  # For Windows
     ```
 
-2. **Download Kaggle Dataset:**
-    - Download the "FER-2013" dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
+Download the "FER-2013" dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-3. **Install Required Libraries:**
-    - In the terminal or command prompt, run the following command:
+In the terminal or command prompt, run the following command to install the required libraries:
 
     ```bash
     pip install numpy opencv-python pillow scikit-learn tensorflow
     ```
-
-4. **Choose Model Usage Option:**
-    - You can either train the model using the provided dataset or use a pre-trained model.
+    
+Now you can either train the model using the provided dataset or use a pre-trained model.
 
 5. **Train the Model (Optional):**
     - Download the `main.py` file and place it in your project folder.
