@@ -8,8 +8,6 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 ## Usage
 
-## Usage
-
 1. **Create a Folder and Set Up a Virtual Environment:**
     - Create a new folder for the project and navigate into it.
     - Open a terminal or command prompt window.
