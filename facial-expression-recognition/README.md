@@ -10,7 +10,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 Create a new folder for the project and navigate into it.
 
-Open a terminal or command prompt window and run the following command to set up a virtual environment.
+Open a terminal or command prompt window and run the following command to set up a virtual environment:
 
     python -m venv venv
     source venv/bin/activate  # For Linux/Mac
@@ -27,7 +27,7 @@ Now you can either train the model using the provided dataset or use a pre-train
 
 To train the model, download the `main.py` file and place it in your project folder.
 
-Open a terminal or command prompt and navigate to your project folder.
+Navigate to your project folder, open a terminal or command prompt and run the following command:
 
     python main.py
 
@@ -36,7 +36,7 @@ To use the model, download the `use.py` and `haarcascade.xml` files and place th
 If you trained the model, use the trained model file.
 If you didn't train the model, download the `model.h5` file.
 
-Finally, to run the model, open a terminal or command prompt and navigate to your project folder.
+Finally, to run the model, navigate to your project folder, open a terminal or command prompt and run the following command:
 
     python use.py
 
