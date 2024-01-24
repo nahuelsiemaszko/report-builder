@@ -45,17 +45,17 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 To train the model, first delete the "model.h5.zip" file and run:
 
-        ```bash
-        python main.py
-        ```
+    ```bash
+    python main.py
+    ```
 
 6. Use the model
    
 To use the model, first, if you skipped step 5, unzip the 'model.h5.zip' file, and then run the following command. If you didn't skip step 5, run the command directly:
 
-        ```bash
-        python use.py
-        ```
+    ```bash
+    python use.py
+    ```
 
 7. Press 'q' to exit when done.
 
