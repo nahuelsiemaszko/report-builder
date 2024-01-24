@@ -21,30 +21,23 @@ Download the "FER-2013" dataset from Kaggle using the following [link](https://w
 
 In the terminal or command prompt, run the following command to install the required libraries:
 
-    ```bash
     pip install numpy opencv-python pillow scikit-learn tensorflow
-    ```
     
 Now you can either train the model using the provided dataset or use a pre-trained model.
 
-5. **Train the Model (Optional):**
-    - Download the `main.py` file and place it in your project folder.
-    - Open a terminal or command prompt and navigate to your project folder.
+To train the model, download the `main.py` file and place it in your project folder.
 
-    ```bash
+Open a terminal or command prompt and navigate to your project folder.
+
     python main.py
-    ```
 
-6. **Use the Model:**
-    - Download the `use.py` and `haarcascade.xml` files and place them in your project folder.
-    - If you trained the model, use the trained model file.
-    - If you didn't train the model, download the `model.h5` file.
+To use the model, download the `use.py` and `haarcascade.xml` files and place them in your project folder.
 
-7. **Run the Model Usage Script:**
-    - Open a terminal or command prompt and navigate to your project folder.
+If you trained the model, use the trained model file.
+If you didn't train the model, download the `model.h5` file.
 
-    ```bash
+Finally, to run the model, open a terminal or command prompt and navigate to your project folder.
+
     python use.py
-    ```
 
-    - Press 'q' to exit the script when done.
+Press 'q' to exit the script when done.
