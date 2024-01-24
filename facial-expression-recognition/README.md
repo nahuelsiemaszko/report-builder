@@ -43,7 +43,7 @@ Navigate to your project folder, open a terminal or command prompt and run the f
 To use the model, download the `use.py` and `haarcascade.xml` files and place them in your project folder.
 
 If you trained the model, use the trained model file.
-If you didn't train the model, download the `model.h5` file.
+If you didn't train the model, download the `model.h5` file and place it in your project folder.
 
 Finally, to run the model, navigate to your project folder, open a terminal or command prompt and run the following command:
 
