@@ -48,7 +48,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 3. Install dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install numpy opencv-python pillow scikit-learn tensorflow
     ```
 
 4. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
