@@ -42,6 +42,3 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 7. **Run the Model Usage Script:**
     - Open the `use.py` file and run it.
     - Press 'q' to exit the script when done.
-
-This guide now reflects that both `use.py` and `haarcascade.xml` need to be downloaded in both scenarios. Adjust the instructions accordingly for a smoother user experience.
-
