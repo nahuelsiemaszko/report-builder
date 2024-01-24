@@ -43,7 +43,7 @@ while True:
                     (x, y - 10),
                     cv2.FONT_HERSHEY_SIMPLEX,
                     0.8,
-                    (255, 255, 255),
+                    (0, 0, 0),
                     2)
 
     cv2.imshow("Frame", frame)
