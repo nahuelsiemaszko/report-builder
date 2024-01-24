@@ -9,9 +9,9 @@ validation_data_dir = 'archive/test/'
 
 train_datagen = ImageDataGenerator(
     rescale=1. / 255,
-    rotation_range=30,
-    shear_range=0.3,
-    zoom_range=0.3,
+    rotation_range=25,
+    shear_range=0.2,
+    zoom_range=0.2,
     horizontal_flip=True,
     fill_mode='nearest')
 
@@ -69,7 +69,7 @@ num_test_imgs = 0
 for root, dirs, files in os.walk(test_path):
     num_test_imgs += len(files)
 
-epochs = 150
+epochs = 100
 
 history = model.fit(train_generator,
                     steps_per_epoch=num_train_imgs // 32,
