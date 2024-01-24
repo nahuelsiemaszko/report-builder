@@ -15,18 +15,6 @@ The model is designed to identify the following seven facial expressions:
 
 The project uses TensorFlow for model construction and training, and OpenCV for image capturing and recognition.
 
-## Requirements
-
-- Python (version 3.x)
-
-## Dependencies
-
-- NumPy
-- OpenCV
-- Pillow
-- scikit-learn
-- TensorFlow
-
 ## Usage
 
 1. Clone the repository:
@@ -53,7 +41,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 4. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-5. Train the model or ommit to use a pre-trained model:
+5. Train the model or omit this step to use a pre-trained model:
 
     - To train the model, first delete the [model.h5.zip](https://github.com/nahuelsiemaszko/facial-expression-recognition/raw/main/model.h5.zip) file and run:
 
