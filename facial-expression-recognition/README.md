@@ -49,4 +49,4 @@ Finally, to run the model, navigate to your project folder, open a terminal or c
 
     python use.py
 
-Press 'q' to exit the script when done.
+Press 'q' to exit when done.
