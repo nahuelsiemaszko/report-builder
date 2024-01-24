@@ -41,9 +41,9 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 4. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-5. Train the model or omit this step to use a pre-trained model:
+5. Train the model or skip this step to use a pre-trained model:
 
-    - To train the model, first delete "the model.h5.zip" file and run:
+To train the model, first delete the "model.h5.zip" file and run:
 
         ```bash
         python main.py
@@ -51,7 +51,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 6. Use the model
    
-    - To use the model run
+To use the model, first, if you skipped step 5, unzip the 'model.h5.zip' file. After that, run the following command. If you didn't skip step 5, run the command directly:
 
         ```bash
         python use.py
