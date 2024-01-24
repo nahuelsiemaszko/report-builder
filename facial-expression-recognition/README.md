@@ -8,31 +8,39 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 ## Usage
 
+## Usage
+
 1. **Create a Folder and Set Up a Virtual Environment:**
     - Create a new folder for the project and navigate into it.
-    - Initialize a virtual environment:
-        ```bash
-        python -m venv venv
-        source venv/bin/activate  # For Linux/Mac
-        # or
-        .\venv\Scripts\activate  # For Windows
-        ```
+    - Open a terminal or command prompt window.
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # For Linux/Mac
+    # or
+    .\venv\Scripts\activate  # For Windows
+    ```
 
 2. **Download Kaggle Dataset:**
     - Download the "FER-2013" dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
 3. **Install Required Libraries:**
-    - Install the necessary libraries:
-        ```bash
-        pip install tensorflow pillow scikit-learn numpy opencv-python
-        ```
+    - In the terminal or command prompt, run the following command:
+
+    ```bash
+    pip install numpy opencv-python pillow scikit-learn tensorflow
+    ```
 
 4. **Choose Model Usage Option:**
     - You can either train the model using the provided dataset or use a pre-trained model.
 
 5. **Train the Model (Optional):**
     - Download the `main.py` file and place it in your project folder.
-    - Open the `main.py` file and run it.
+    - Open a terminal or command prompt and navigate to your project folder.
+
+    ```bash
+    python main.py
+    ```
 
 6. **Use the Model:**
     - Download the `use.py` and `haarcascade.xml` files and place them in your project folder.
@@ -40,5 +48,10 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     - If you didn't train the model, download the `model.h5` file.
 
 7. **Run the Model Usage Script:**
-    - Open the `use.py` file and run it.
+    - Open a terminal or command prompt and navigate to your project folder.
+
+    ```bash
+    python use.py
+    ```
+
     - Press 'q' to exit the script when done.
