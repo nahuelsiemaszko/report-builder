@@ -12,10 +12,10 @@ Create a new folder for the project and navigate into it.
 
 Open a terminal or command prompt window and run the following command to set up a virtual environment.
 
-    python -m venv venv
-    source venv/bin/activate  # For Linux/Mac
-    # or
-    .\venv\Scripts\activate  # For Windows
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+# or
+.\venv\Scripts\activate  # For Windows
 
 Download the "FER-2013" dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
