@@ -15,38 +15,64 @@ The model is designed to identify the following seven facial expressions:
 
 The project uses TensorFlow for model construction and training, and OpenCV for image capturing and recognition.
 
+## Requirements
+
+- Python (version 3.x)
+
+## Dependencies
+
+- NumPy
+- OpenCV
+- Pillow
+- scikit-learn
+- TensorFlow
+
 ## Usage
 
-Create a new folder for the project and navigate into it.
+1. Clone the repository:
 
-Open a terminal or command prompt window and run the following command to set up a virtual environment:
+    ```bash
+    git clone https://github.com/nahuelsiemaszko/portfolio.git
+    cd portfolio/facial-expression-recognition
+    ```
 
+2. Set up a virtual environment:
+
+    ```bash
     python -m venv venv
     source venv/bin/activate  # For Linux/Mac
     # or
     .\venv\Scripts\activate  # For Windows
+    ```
 
-Download the "FER-2013" dataset from Kaggle using the following [link](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
+3. Install dependencies:
 
-In the terminal or command prompt, run the following command to install the required libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-    pip install numpy opencv-python pillow scikit-learn tensorflow
-    
-Now you can either train the model using the provided dataset or use a pre-trained model.
+4. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-To train the model, download the `main.py` file and place it in your project folder.
+5. Train the model or ommit to use a pre-trained model:
 
-Navigate to your project folder, open a terminal or command prompt and run the following command:
+    - To train the model, first delete the [model.h5.zip](https://github.com/nahuelsiemaszko/facial-expression-recognition/raw/main/model.h5.zip) file and run:
 
-    python main.py
+        ```bash
+        python main.py
+        ```
 
-To use the model, download the `use.py` and `haarcascade.xml` files and place them in your project folder.
+6. Use the model
+   
+    - To use the model run
 
-If you trained the model, use the trained model file.
-If you didn't train the model, download the `model.h5.zip` file, unzip it and place it in your project folder.
+        ```bash
+        python use.py
+        ```
 
-Finally, to run the model, navigate to your project folder, open a terminal or command prompt and run the following command:
+7. Press 'q' to exit when done.
 
-    python use.py
+8. Deactivate the virtual environment:
 
-Press 'q' to exit when done.
+    ```bash
+    deactivate
+    ```
