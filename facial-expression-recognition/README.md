@@ -43,7 +43,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 5. Train the model or omit this step to use a pre-trained model:
 
-    - To train the model, first delete the model.h5.zip file and run:
+    - To train the model, first delete "the model.h5.zip" file and run:
 
         ```bash
         python main.py
